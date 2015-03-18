@@ -1,0 +1,5 @@
+<?php
+/*
+* Process all classes
+*/
+?>
