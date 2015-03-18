@@ -8,6 +8,7 @@ class DC_Database {
 	public $db_user;
 	public $db_name;
 	public $db_pass;
+	public $db_conn;
 	
 	//Start functions
 	function __construct(){
@@ -18,7 +19,7 @@ class DC_Database {
 	}
 	
 	function connect(){
-		return $result;
+		return $this->db_conn;
 	}
 	
 	function get($query){
