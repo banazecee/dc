@@ -1,2 +1,2 @@
 # dc
-Just for test DC Tracking project.
+DC Tracking project for school testing.
