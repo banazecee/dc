@@ -2,13 +2,15 @@
 /*
 * Process all classes
 */
-class DC_Init {
+include('database/database.php');
+class DC_Init extends DC_Database{
 	//Variables
-	public $connections;
 	
 	//Start functions
 	function __construct(){
-		$this->connections = '';
+		
 	}
 }
+
+$DC = new DC_Init();
 ?>
